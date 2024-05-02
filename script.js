@@ -101,5 +101,5 @@ daxurva.addEventListener("click", close1);
 function close1(){
     let closed = document.querySelector(".links");
     closed.style.display = "none";
-    document.querySelector(".bar").style.opacity = "1"
+    document.querySelector(".bar").style.opacity = "1";
 }

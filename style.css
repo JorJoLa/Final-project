@@ -15,6 +15,9 @@ html, body{
     background-color: rgba(28, 30, 83, 1);
     height: 620px;
 }
+.header{
+    background-color: rgba(28, 30, 83, 1);
+}
 .nav{
     display: flex;
     justify-content: space-between;

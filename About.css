@@ -1,0 +1,142 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.full{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.upper_body{
+    background-color: rgba(28, 30, 83, 1);
+    height: 620px;
+}
+.header{
+    background-color: rgba(28, 30, 83, 1);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    width: 58%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color:rgba(187, 187, 203, 1);
+    margin-top: 20px;
+}
+.finsweet{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.home{
+    color: rgba(255, 255, 255, 1);
+}
+.contact{
+    padding: 15px;
+    border-radius: 41px;
+    border-width: 2px;
+    background-color:  rgba(28, 30, 83, 1);
+    border-color: rgba(187, 187, 203, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px){
+    .full{
+        max-width: 450px;
+        width: 100%;
+    }
+    .upper_body{
+        background-color: rgba(28, 30, 83, 1);
+        height: 900px;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .bar{
+        font-size: 50px;
+        transform: rotate(90deg);
+        width: 35px;
+        height: 60px;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        color: azure;
+    }
+    .links{
+        width: 200px;
+        background-color: rgba(0, 255, 255, 0.295);
+        height: 500px;
+        font-size: 30px;
+        font-weight: 500;
+        display: none;
+    }
+    .contact{
+        width: 150px;
+        height: 40px;
+        border-radius: 26px;
+        box-shadow: 0px 0px 5px;
+        font-size: 20px;
+    }
+    .escape{
+        font-size: 40px;
+        position: absolute;
+        right: 5%;
+        top: 2%;
+    }
+    .home{
+        position: absolute;
+        top: 1%;
+        color: rgba(255, 255, 255, 1);
+    }
+    .about{
+        position: absolute;
+        top: 15%;
+        color: rgba(187, 187, 203, 1);
+    }
+    .features{
+        position: absolute;
+        top: 29%;
+        color: rgba(187, 187, 203, 1);
+    }
+    .pricing{
+        position: absolute;
+        top: 43%;
+        color: rgba(187, 187, 203, 1);
+    }
+    .faq{
+        position: absolute;
+        top: 57%;
+        color: rgba(187, 187, 203, 1);
+    }
+    .blog{
+        position: absolute;
+        top: 71%;
+        color: rgba(187, 187, 203, 1);
+    }
+    .contact{
+        position: absolute;
+        top: 85%;
+        color: rgba(187, 187, 203, 1);
+        background-color: rgba(28, 30, 83, 1);
+        width: 165px;
+        height: 50px;
+    }
+    .finsweet{
+        font-size: 50px;
+        color: rgba(255, 255, 255, 1);
+        line-height: 64px;
+    }
+}
